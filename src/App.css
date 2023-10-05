@@ -82,7 +82,10 @@ header {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  #root {
+    padding: .5rem;
+  }
   header {
     flex-direction: column;
   }
