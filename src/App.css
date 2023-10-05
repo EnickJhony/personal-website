@@ -68,7 +68,7 @@ header {
 }
 
 .qrCode {
-  margin: 2rem;
+  display: none;
 }
 
 @keyframes logo-spin {
@@ -98,5 +98,9 @@ header {
   }
   .cards {
     grid-template-columns: 1fr;
+  }
+  .qrCode{
+    display: block;
+    margin-top: 2rem;
   }
 }
