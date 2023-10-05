@@ -81,3 +81,15 @@ header {
     animation: logo-spin infinite 20s linear;
   }
 }
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -25,7 +25,7 @@ export default function App() {
       </div>
       <div className="cards">
         <div className="card">
-          <div className='cardInfo'>
+          <div className="cardInfo">
             <h3>ToDo App</h3>
             <p>App para cadastrar e listar tarefas</p>
             <a
@@ -39,7 +39,7 @@ export default function App() {
           <img className="logoProject" src={imageNotFound} alt="" />
         </div>
         <div className="card">
-          <div className='cardInfo'>
+          <div className="cardInfo">
             <h3>Coffee Delivery</h3>
             <p>App que simula uma cafeteria online</p>
             <a
@@ -53,7 +53,7 @@ export default function App() {
           <img className="logoProject" src={imageNotFound} alt="" />
         </div>
         <div className="card">
-          <div className='cardInfo'>
+          <div className="cardInfo">
             <h3>Doctor Care</h3>
             <p>App que simula uma landing page de um consultorio.</p>
             <a
@@ -67,7 +67,7 @@ export default function App() {
           <img className="logoProject" src={imageNotFound} alt="" />
         </div>
         <div className="card">
-          <div className='cardInfo'>
+          <div className="cardInfo">
             <h3>Portfolio Ansel</h3>
             <p>App que simula um Portifólio</p>
             <a
