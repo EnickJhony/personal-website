@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <div>
-      <h1 className=" text-3xl font-bold text-gray-800 md:text-5 md">
+      <h1 className=" text-3xl font-bold text-gray-800 mt-20 md:text-5 md">
           Oi, sou {'<'}EnickJhony{'/>'} !
         </h1>
         <a
