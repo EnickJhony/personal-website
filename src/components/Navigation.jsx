@@ -1,10 +1,10 @@
 export function Navigation() {
   return (
-    <nav className="flex justify-between items-center font-sans">
-      <div className="flex px-1 bg-slate-800 rounded text-zinc-300">
-        <span className="font-medium text-4xl">e³</span>
+    <nav className="flex justify-between items-center font-sans py-4 lg:max-w-5xl m-auto">
+      <div>
+        <span className="font-manrope font-bold text-5xl">e³</span>
       </div>
-      <span>menu</span>
+      <span></span>
     </nav>
   )
 }
