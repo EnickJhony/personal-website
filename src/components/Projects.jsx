@@ -1,57 +1,105 @@
+import { GithubLogo, Info } from '@phosphor-icons/react'
+import AnselImg from '../assets/Ansel.png'
+import CoffeeDeliveryImg from '../assets/CoffeeDelivery.png'
+import DoctorCareImg from '../assets/DoctorCare.png'
+import ToDoListImg from '../assets/ToDoList.png'
+
 export function Projects() {
   return (
-    <div>
-      <div>Projects</div>
-      <div>
-        <div className="card">
-          <div className="cardInfo">
-            <h3>ToDo App</h3>
-            <p>App para cadastrar e listar tarefas</p>
+    <div className="lg:max-w-5xl m-auto">
+      <div className="text-3xl font-bold underline mb-8">
+        Projects
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div>
+          <div className="hover:scale-105 transform transition-all duration-500">
+            <img
+              className="w-full rounded-lg object-cover"
+              src={ToDoListImg}
+              alt=""
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <a title="Informações do projeto" href="#">
+              <Info size={32} />
+            </a>
             <a
-              href="https://todo-enickjhony.vercel.app/"
+              className="p-4"
+              title="Repositório do projeto"
+              href="https://github.com/EnickJhony/todo"
               target="_blank"
               rel="noreferrer"
             >
-              Acesse aqui
+              <GithubLogo size={32} />
             </a>
           </div>
         </div>
-        <div className="card">
-          <div className="cardInfo">
-            <h3>Coffee Delivery</h3>
-            <p>App que simula uma cafeteria online</p>
+        <div>
+          <div className="hover:scale-105 transform transition-all duration-500">
+            <img
+              className="w-full rounded-lg object-cover"
+              src={CoffeeDeliveryImg}
+              alt=""
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <a title="Informações do projeto" href="#">
+              <Info size={32} />
+            </a>
             <a
-              href="https://coffee-delivery-enickjhony.vercel.app/"
+              className="p-4"
+              title="Repositório do projeto"
+              href="https://github.com/EnickJhony/todo"
               target="_blank"
               rel="noreferrer"
             >
-              Acesse aqui
+              <GithubLogo size={32} />
             </a>
           </div>
         </div>
-        <div className="card">
-          <div className="cardInfo">
-            <h3>Doctor Care</h3>
-            <p>App que simula uma landing page de um consultorio.</p>
+        <div>
+          <div className="hover:scale-105 transform transition-all duration-500">
+            <img
+              className="w-full rounded-lg object-cover"
+              src={DoctorCareImg}
+              alt=""
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <a title="Informações do projeto" href="#">
+              <Info size={32} />
+            </a>
             <a
-              href="https://enickjhony.github.io/NWL-Origin-2022//"
+              className="p-4"
+              title="Repositório do projeto"
+              href="https://github.com/EnickJhony/todo"
               target="_blank"
               rel="noreferrer"
             >
-              Acesse aqui
+              <GithubLogo size={32} />
             </a>
           </div>
         </div>
-        <div className="card">
-          <div className="cardInfo">
-            <h3>Portfolio Ansel</h3>
-            <p>App que simula um Portifólio</p>
+        <div>
+          <div className="hover:scale-105 transform transition-all duration-500">
+            <img
+              className="w-full rounded-lg object-cover"
+              src={AnselImg}
+              alt=""
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <a title="Informações do projeto" href="#">
+              <Info size={32} />
+            </a>
             <a
-              href="https://enickjhony.github.io/portfolio-ansel/"
+              className="p-4"
+              title="Repositório do projeto"
+              href="https://github.com/EnickJhony/todo"
               target="_blank"
               rel="noreferrer"
             >
-              Acesse aqui
+              <GithubLogo size={32} />
             </a>
           </div>
         </div>
