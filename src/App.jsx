@@ -19,7 +19,7 @@ export default function App() {
   }
 
   return (
-    <div className="bg-gray-400 h-screen p-4">
+    <div className="min-h-screen p-4 bg-slate-950 text-slate-300 font-manrope">
       <Navigation />
       <Hero />
       <Projects />
