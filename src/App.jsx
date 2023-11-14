@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { LoadingPage } from './components/LoadingPage'
 import { Navigation } from './components/Navigation'
 import { Projects } from './components/Projects'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -24,6 +25,7 @@ export default function App() {
       <Hero />
       <Projects />
       <Footer />
+      <Analytics />
     </div>
   )
 }
