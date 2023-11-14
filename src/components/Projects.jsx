@@ -12,7 +12,7 @@ export function Projects() {
         <div>
           <div className="hover:scale-105 transform transition-all duration-500">
             <a
-              href="https://todo-enickjhony.vercel.app/"
+              href="https://todo.enick.dev.br/"
               target="_blank"
               rel="noreferrer"
             >
@@ -41,7 +41,7 @@ export function Projects() {
         <div>
           <div className="hover:scale-105 transform transition-all duration-500">
             <a
-              href="https://coffee-delivery-enickjhony.vercel.app/"
+              href="https://coffee-delivery.enick.dev.br/"
               target="_blank"
               rel="noreferrer"
             >
@@ -70,7 +70,7 @@ export function Projects() {
         <div>
           <div className="hover:scale-105 transform transition-all duration-500">
             <a
-              href="https://enickjhony.github.io/NWL-Origin-2022/"
+              href="https://doctor-care.enick.dev.br/"
               target="_blank"
               rel="noreferrer"
             >
@@ -99,7 +99,7 @@ export function Projects() {
         <div>
           <div className="hover:scale-105 transform transition-all duration-500">
             <a
-              href="https://enickjhony.github.io/portfolio-ansel/"
+              href="https://portfolio-ansel.enick.dev.br/"
               target="_blank"
               rel="noreferrer"
             >
