@@ -9,7 +9,7 @@ export function Hero() {
         </h1>
         <div className="text-xl sm:text-2xl sm:w-4/5 lg:text-3xl lg:w-full text-slate-400 py-1 lg:py-4 text-center">
           <p>
-            Front-end Developer, seja bem vindo(a) ao meu pedacinho de
+            Full Stack Developer, seja bem vindo(a) ao meu pedacinho de
             internet!
           </p>
           <p>Sou apaixonado por interfaces responsivas e funcionais.</p>
