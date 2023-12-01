@@ -5,6 +5,7 @@ import { LoadingPage } from './components/LoadingPage'
 import { Navigation } from './components/Navigation'
 import { Projects } from './components/Projects'
 import { Analytics } from '@vercel/analytics/react';
+import { Technologies } from './components/Technologies'
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -23,6 +24,7 @@ export default function App() {
     <div className="min-h-screen p-4 bg-slate-950 text-slate-300 font-manrope">
       <Navigation />
       <Hero />
+      <Technologies />
       <Projects />
       <Footer />
       <Analytics />
