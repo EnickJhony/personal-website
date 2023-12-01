@@ -1,4 +1,4 @@
-import { GithubLogo, Info } from '@phosphor-icons/react'
+import { GithubLogo } from '@phosphor-icons/react'
 import AnselImg from '../assets/Ansel.png'
 import CoffeeDeliveryImg from '../assets/CoffeeDelivery.png'
 import DoctorCareImg from '../assets/DoctorCare.png'
@@ -24,9 +24,6 @@ export function Projects() {
             </a>
           </div>
           <div className="flex justify-center items-center">
-            <a title="Informações do projeto" href="#">
-              <Info size={32} />
-            </a>
             <a
               className="p-4"
               title="Repositório do projeto"
@@ -53,9 +50,6 @@ export function Projects() {
             </a>
           </div>
           <div className="flex justify-center items-center">
-            <a title="Informações do projeto" href="#">
-              <Info size={32} />
-            </a>
             <a
               className="p-4"
               title="Repositório do projeto"
@@ -82,9 +76,6 @@ export function Projects() {
             </a>
           </div>
           <div className="flex justify-center items-center">
-            <a title="Informações do projeto" href="#">
-              <Info size={32} />
-            </a>
             <a
               className="p-4"
               title="Repositório do projeto"
@@ -111,9 +102,6 @@ export function Projects() {
             </a>
           </div>
           <div className="flex justify-center items-center">
-            <a title="Informações do projeto" href="#">
-              <Info size={32} />
-            </a>
             <a
               className="p-4"
               title="Repositório do projeto"
