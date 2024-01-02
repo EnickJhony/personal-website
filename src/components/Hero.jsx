@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import heroImg from '../assets/heroImg.svg'
 
 export function Hero() {
@@ -15,7 +16,7 @@ export function Hero() {
           <p>Sou apaixonado por interfaces responsivas e funcionais.</p>
         </div>
       </div>
-      <img className="w-full sm:w-3/4 md:w-2/5" src={heroImg} alt="" />
+      <Image className="w-full sm:w-3/4 md:w-2/5" src={heroImg} alt="" />
     </div>
   )
 }

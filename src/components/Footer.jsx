@@ -3,7 +3,7 @@ import {
   GithubLogo,
   LinkedinLogo,
   WhatsappLogo
-} from '@phosphor-icons/react'
+} from '@phosphor-icons/react/dist/ssr'
 
 export function Footer() {
   return (

@@ -1,4 +1,5 @@
-import { GithubLogo } from '@phosphor-icons/react'
+import Image from 'next/image'
+import { GithubLogo } from '@phosphor-icons/react/dist/ssr'
 import AnselImg from '../assets/Ansel.png'
 import CoffeeDeliveryImg from '../assets/CoffeeDelivery.png'
 import DoctorCareImg from '../assets/DoctorCare.png'
@@ -16,7 +17,7 @@ export function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
+              <Image
                 className="w-full rounded-lg object-cover"
                 src={ToDoListImg}
                 alt=""
@@ -42,7 +43,7 @@ export function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
+              <Image
                 className="w-full rounded-lg object-cover"
                 src={CoffeeDeliveryImg}
                 alt=""
@@ -68,7 +69,7 @@ export function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
+              <Image
                 className="w-full rounded-lg object-cover"
                 src={DoctorCareImg}
                 alt=""
@@ -94,7 +95,7 @@ export function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
+              <Image
                 className="w-full rounded-lg object-cover"
                 src={AnselImg}
                 alt=""
