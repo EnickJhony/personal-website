@@ -7,7 +7,7 @@ import { Technologies } from "../components/Technologies"
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-4 bg-slate-950 text-slate-300">
+    <main className="min-h-screen p-4">
       <Navigation />
       <Hero />
       <Technologies />
