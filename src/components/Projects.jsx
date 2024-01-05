@@ -1,9 +1,9 @@
 import Image from "next/image"
 import { GithubLogo } from "@phosphor-icons/react/dist/ssr"
-import AnselImg from "../projects/assets/Ansel.png"
-import CoffeeDeliveryImg from "../projects/assets/CoffeeDelivery.png"
-import DoctorCareImg from "../projects/assets/DoctorCare.png"
-import ToDoListImg from "../projects/assets/ToDoList.png"
+import AnselImg from "../assets/projects/Ansel.png"
+import CoffeeDeliveryImg from "../assets/projects/CoffeeDelivery.png"
+import DoctorCareImg from "../assets/projects/DoctorCare.png"
+import ToDoListImg from "../assets/projects/ToDoList.png"
 
 export function Projects() {
   return (
