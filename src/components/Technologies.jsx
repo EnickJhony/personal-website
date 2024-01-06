@@ -1,6 +1,6 @@
 export function Technologies() {
   return (
-    <div className="py-20 lg:py-8 lg:max-w-5xl m-auto">
+    <div className="py-20 lg:py-8 ">
       <h2 className="text-3xl font-bold underline mb-8">Tecnologias</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="text-center text-2xl">

@@ -7,7 +7,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="lg:max-w-5xl m-auto">
+    <footer className="">
       <div className="flex justify-center gap-4 py-4">
         <a
           href="https://www.linkedin.com/in/enickjhony/"

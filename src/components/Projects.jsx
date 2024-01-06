@@ -1,5 +1,5 @@
-import Image from "next/image"
 import { GithubLogo } from "@phosphor-icons/react/dist/ssr"
+import Image from "next/image"
 import AnselImg from "../assets/projects/Ansel.png"
 import CoffeeDeliveryImg from "../assets/projects/CoffeeDelivery.png"
 import DoctorCareImg from "../assets/projects/DoctorCare.png"
@@ -7,7 +7,7 @@ import ToDoListImg from "../assets/projects/ToDoList.png"
 
 export function Projects() {
   return (
-    <div className="lg:max-w-5xl m-auto">
+    <div className="">
       <div className="text-3xl font-bold underline mb-8">Projects</div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div>

@@ -1,3 +1,6 @@
+import { Footer } from "@/components/Footer"
+import { Navigation } from "@/components/Navigation"
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next"
 import { Manrope } from "next/font/google"
 import "./globals.css"
@@ -15,8 +18,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="bg-slate-950 text-slate-300">
-      <body className={manrope.className}>{children}</body>
+    <html lang="en" className="min-h-screen p-4 lg:max-w-5xl m-auto  bg-slate-950 text-slate-300">
+      <body className={manrope.className}>
+        <Navigation />
+        {children}
+        <Footer />
+        <Analytics />
+      </body>
     </html>
   )
 }
