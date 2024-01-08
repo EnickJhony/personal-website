@@ -18,7 +18,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="min-h-screen p-4 lg:max-w-5xl m-auto  bg-slate-950 text-slate-300">
+    <html
+      lang="en"
+      className="min-h-screen bg-slate-950 text-slate-300"
+    >
       <body className={manrope.className}>
         <Navigation />
         {children}
