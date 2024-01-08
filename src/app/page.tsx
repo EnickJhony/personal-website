@@ -1,13 +1,11 @@
 import { Hero } from "../components/Hero"
-import { Projects } from "../components/Projects"
-import { Technologies } from "../components/Technologies"
+import { Cards } from "../components/Cards"
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Technologies />
-      <Projects />
+      <Cards />
     </main>
   )
 }
