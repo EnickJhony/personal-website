@@ -1,13 +1,5 @@
-"use client"
-import { useRouter } from "next/navigation"
+import UnderConstruction from "@/components/UnderConstruction"
 
 export default function About() {
-  const route = useRouter()
-
-  route.replace("/underConstruction")
-  return (
-    <div>
-      <h1>About</h1>
-    </div>
-  )
+  return <UnderConstruction />
 }
