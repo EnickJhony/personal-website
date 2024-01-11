@@ -1,9 +1,7 @@
-import {
-  Campfire,
-  DesktopTower,
-  ProjectorScreen,
-  SmileyWink,
-} from "@phosphor-icons/react/dist/ssr"
+import { Campfire } from "@phosphor-icons/react/dist/ssr/Campfire"
+import { DesktopTower } from "@phosphor-icons/react/dist/ssr/DesktopTower"
+import { ProjectorScreen } from "@phosphor-icons/react/dist/ssr/ProjectorScreen"
+import { SmileyWink } from "@phosphor-icons/react/dist/ssr/SmileyWink"
 import Link from "next/link"
 
 export function Cards() {

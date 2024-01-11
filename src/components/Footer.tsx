@@ -1,9 +1,7 @@
-import {
-  Envelope,
-  GithubLogo,
-  LinkedinLogo,
-  WhatsappLogo,
-} from "@phosphor-icons/react/dist/ssr"
+import { Envelope } from "@phosphor-icons/react/dist/ssr/Envelope"
+import { GithubLogo } from "@phosphor-icons/react/dist/ssr/GithubLogo"
+import { LinkedinLogo } from "@phosphor-icons/react/dist/ssr/LinkedinLogo"
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr/WhatsappLogo"
 
 export function Footer() {
   return (
